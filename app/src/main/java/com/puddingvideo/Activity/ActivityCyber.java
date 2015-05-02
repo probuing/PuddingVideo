@@ -13,8 +13,6 @@ public class ActivityCyber extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_activity_cyber);
-       //测试
-        startActivity(null);
 
     }
 

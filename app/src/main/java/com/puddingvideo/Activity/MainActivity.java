@@ -102,6 +102,7 @@ public class MainActivity extends FragmentActivity {
 
         @Override
         public Fragment getItem(int position) {
+
             return Fragment_organize.getFragment(position);
         }
 
