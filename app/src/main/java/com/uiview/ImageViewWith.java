@@ -3,13 +3,14 @@ package com.uiview;
 import android.content.Context;
 import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
 
 /**
  * Created by admin on 2015/4/15.
  */
-public class ImageViewWith extends ImageView {
+public class ImageViewWith extends ImageView implements MyViewPager.OnSingleTouchListener {
 
     //在代码中使用
     public ImageViewWith(Context context) {
@@ -41,5 +42,11 @@ public class ImageViewWith extends ImageView {
             }
         }
         super.onMeasure(widthMeasureSpec, heightMeasureSpec);
+    }
+
+
+    @Override
+    public void onSingleTouch() {
+
     }
 }

@@ -24,7 +24,7 @@ public class Adapter_Vpfragment_HotHead extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        Fragment_HotHeader fragment = Fragment_HotHeader.getFragment(position, context, banners.get(position).getImageUrl());
+        Fragment_HotHeader fragment = Fragment_HotHeader.getFragment(position, context, banners.get(position).getImageUrl(),banners.get(position).getUrl());
 
         return fragment;
     }

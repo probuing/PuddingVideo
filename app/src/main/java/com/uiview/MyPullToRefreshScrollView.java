@@ -9,7 +9,6 @@ import android.widget.ScrollView;
 
 import com.handmark.pulltorefresh.library.OverscrollHelper;
 import com.handmark.pulltorefresh.library.PullToRefreshBase;
-import com.handmark.pulltorefresh.library.PullToRefreshScrollView;
 import com.puddingvideoproject.R;
 
 /**

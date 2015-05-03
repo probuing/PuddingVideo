@@ -9,4 +9,5 @@
     <string name="title_activity_activity_time">ActivityTime</string>
     <string name="title_activity_activity_cyber">ActivityCyber</string>
     <string name="title_activity_activity_mine">ActivityMine</string>
+    <string name="title_activity_activity__show_header">Activity_ShowHeader</string>
 </resources>
